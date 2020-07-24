@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body{
+			background-image: url("backgroundlogin.png");
+			text-align: center;
+		}
+		.a{
+			background-color:white;
+			margin-left: 450px;
+			margin-right: 450px;
+			font-size: 30px;
+			padding-left: 50px;
+			padding-right: 50px;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			box-shadow: 2px 2px 5px 5px #888888;
+
+		}
+		img{
+			height: 150px;
+			width: 300px;
+		}
+		.input{
+			margin-left: -11rem;
+			width: 370px;
+			height: 40px;
+			padding-right: -4rem;
+
+		}
+		.check{
+			margin-left: -11rem;
+			width: 20px;
+			height: 20px;
+			cursor: pointer;
+
+
+		}
+		.link{
+			text-decoration: none;
+			font-size: 15px;
+			color: #3498DB;
+		}
+		.link:hover{
+			text-decoration: underline;
+		}
+		.login{
+			background-color: #3498DB;
+			width: 400px;
+			margin-left: -10rem;
+			height: 50px;
+			border: none;
+		}
+		.login:hover{
+			background-color: #2E86C1;
+		}
+		.g{
+			text-decoration: none;
+			color: #3498DB;
+		}
+		.g:hover{
+			text-decoration: underline;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="a"><img src="logo3.png"><pre style="font-weight: bolder;">Sign up
+
+<button style="margin-left:-1rem;  width: 300px;height: 40px; background-image:url('continue.png');cursor:pointer;";></button>
+<div style="font-size: 15px">Or</div>
+<form action="http://localhost/welcome.php" method="post">
+	<input type="text" placeholder="Email or Username" name="name" class="input">
+
+	<input type="password" placeholder="Password" class="input" name="password">
+
+	<input type="checkbox" name="" class="check" ><label style="font-size: 15px" >I agree to <a class="link" href="">terms and policies</a> of KK
+</label>
+	<input type="submit" name="login" value="Sign up" class="login">
+	<hr style="margin: 0px">
+</form>
+<div style="font-weight: lighter;font-size:15px">Already have an account?<a class="g" href="">Log in</a></div>
+</pre></div>
+</body>
+</html>
